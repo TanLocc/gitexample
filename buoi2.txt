@@ -1,0 +1,88 @@
+//git revert key
+-- tao ra một commit và hoàn lại một việc đã làm, quay lại trạng thái trước khi có dòng đấy
+-- dùng trong trường hợp một commit nào đó cách đây khá lâu mà muốn bỏ đi
+-- tránh dùng revert
+
+
+.gitignore
+file này sẽ nằm trong project và mục đích là nó sẽ bỏ qua các file mà bạn muốn và khi chay
+git status nó sẽ không hiên thị lõi
+npm init
+example:
+	node_modules
+
+README.md
+
+//Github
+git repository
+	step1:
+		login vào github
+	step2:
+		create new repository	
+
+
+//git remove add origin .....
+
+//git remote remove origin
+
+//git remote -v
+
+// https
+
+// ssh key
+
+//git push - u origin master...
+
+// git credential
+- git config --global credential.helper store
+
+
+- git config --global credential.helper "cache --timeout=12000"
+
+
+// git-ssh
+ssh-keygen
+
+
+// keychain
+
+
+// git clone
+lay code từ repo về
+
+
+// push a branch
+
+// git branch
+
+// git fetch origin ...repo
+ git fetch
+Sử dụng git fetch sẽ giúp chúng ta cập nhật tất cả những thông tin mới như commit, branch, v.v.
+
+git pull
+Câu lệnh này sẽ download tất cả những nội dung (không chỉ là metadata như git fetch) từ dịch vụ lưu trữ xuống local repository
+
+// git branch -D branch....
+xóa branch đi
+
+// resole config
+fix và giải quyết các code bị xung đột với nhau
+
+git rebase 
+
+git rebase --continue
+update lại commit cũ, thấy lịch sử commit , checkout từ master phiên bản mới chứ k phải cũ
+
+https://www.atlassian.com/git/tutorials/merging-vs-rebasing
+
+//
+git merge
+merge những thay đổi trên master tới featurebranch
+reolve confilic
+
+
+
+
+
+
+

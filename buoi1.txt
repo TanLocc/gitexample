@@ -1,0 +1,82 @@
+// setUp
+
+
+
+
+
+// git version
+Câu lệnh này dùng để kiểm tra phiên bản git đang sử dụng trên máy.
+
+// git init
+câu lệnh đầu tiên khi chúng ta bắt đầu một dự án mới, 
+câu lệnh này sẽ giúp chúng ta tạo một repository mới, 
+sau đó nó sẽ được sử dụng để lưu trữ và quản lý mã nguồn trong repository
+
+
+// git status
+
+// git add
+Git add là câu lệnh giúp thêm tất cả các file code mới mới 
+hoặc các file code được chỉnh sửa vào repository.
+
+// git add .
+thêm tất cả các file tự động được add vào repository 
+
+// git restore file
+Câu lệnh giúp restore lại những file bị thay dổi về file gốc khi được add
+
+// git commit
+câu lệnh này giúp lưu các thay đổi ở các file trong vùng staging area xuống repository
+
+// git status
+Những file nào đang nằm trong vùng staging area 
+hoặc đang nằm ngoài staging area
+kiểm tra trạng thái
+
+// git log
+hiển thị ra những commit mà bạn đã commit lên
+
+// git show
+
+hiển thị ra chi tiết commit với id của commit đó
+vd:  git show 7704c608ece6f6a54e896f2e395e18f6b6bbfea2
+
+// git diff
+so sánh và hiển thị ra những thay đổi của commit trước đó
+
+// working directory
+	thư mục bạn làm việc, có các file hiện tại bạn đang code 
+	
+// staging area 
+	Các file đang được thay đôi ở working directory sẽ được add vào staging area. 
+
+// git repository
+lưu các thay đổi và tập hợp các commit 
+
+// gitk
+
+// git checkout -b feature-us-124-change-text 
+branch, tao một nhánh mới từ nhánh gôc
+
+
+// git reset Head
+	 đưa tất cả các file đã được staging về trạng thái modified
+
+// git reset --soft key
+quay về commit trước đó và mở cái commit hiện tại ra , đưa về thời điểm staging area (đã đc add )
+
+// git reset --mixed key
+quey về commit key và đưa commit trước đó về working directory ( đưa cái commit trước nó về trạng 
+
+// git reset --hard key
+remove hẳn commit trước đó đi
+
+// git revert commit
+quay lai trang thai trước  
+
+
+// git checkout --
+
+
+// git config --global user.name "Your name"
+// git config --global user.email "Your email"
